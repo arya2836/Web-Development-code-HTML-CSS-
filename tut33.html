@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Before and After pseudo selectors</title>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Kanit&family=Ubuntu:ital,wght@0,300;1,500&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: white;
+        }
+        header::before{
+            content:"";
+            background: url('https://source.unsplash.com/random')no-repeat center center/cover;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            opacity: 0.3;
+
+        }
+        
+
+        section {
+            font-family: 'Caprasimo', cursive;
+            height: 344px;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            margin: 3px 23px;
+            align-items: center;
+            /* border: 2px solid red; */
+
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        /* section::before{
+            content: "this is a content";
+
+        } */
+        .navigation {
+            font-family: 'Caprasimo', cursive;
+            font-size: 23px;
+            display: flex;
+        }
+
+        li {
+            list-style: none;
+            padding: 20px 23px;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="navigation">
+                <li class="item">Home</li>
+                <li class="item">About</li>
+                <li class="item">Services</li>
+                <li class="item">Contact us</li>
+            </ul>
+
+        </nav>
+    </header>
+    <section>
+        <h1>Welcome to coding world</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, obcaecati ducimus? Reiciendis dolore
+            voluptatem delectus vitae error, amet, neque molestias optio ipsum corporis soluta, pariatur dignissimos
+            accusamus! Fuga, cum laudantium?
+            Deleniti delectus cupiditate facere amet, adipisci beatae impedit et asperiores</p>
+    </section>
+    <!-- <hr> -->
+
+
+</body>
+
+</html>

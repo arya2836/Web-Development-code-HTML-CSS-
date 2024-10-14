@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three ways of implementing CSS </title>
+
+    <!-- This is the way of implementig External CSS -->
+
+    <link rel="stylesheet" href="tut13.css"> <!--Link to tut13.CSS so it follows all the content of tut13.CSS file -->
+
+    <!-- This is the way of implementing internal CSS -->
+
+    <!-- Remember it in comapare internal & external CSS which will come (After) that will take precedence but if you want, which CSS come after that take precedence then you can write (!important) like below-->
+    <style>
+        p {
+            color: rgb(204, 37, 204);
+            background-color: aqua !important;
+
+        }
+    </style>
+    <!-- Remember it inline CSS has First priority compare to internal,external CSS -->
+
+</html>
+
+</head>
+
+<body>
+    <h3>This is inline CSS</h3>
+    <!-- <p style="color:red; background-color: pink">This page will teach you everything you need to know about HTML/CSS</p> -->
+    <p>This Page will teach you everything you need to know about HTML/CSS</p>
+</body>
+
+</html>

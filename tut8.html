@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+
+<body>
+  <h2>Form using HTML</h2>
+  <!-- Below we are writing "backend php" just for understanding but in actual we are not using php code -->
+  <form action="backend php">
+    <label for="name">Name:</label>
+    <div>
+      <input type="text" name="my name" id="name">
+    </div>
+    <br>
+    <label for="role">Role:</label>
+    <div>
+      <input type="text" name="my role" id="role">
+    </div>
+    <br>
+    <label for="date">Date:</label>
+    <div>
+      <input type="Date" name="my date" id="date">
+    </div>
+    <br>
+    <!-- br is not recommended but we are just using for see practical  -->
+    <label for="bonus">Bonus:</label>
+    <div>
+      <input type="text" name="my Bonus" id="bonus">
+    </div>
+    <br>
+    <label for="Email">Email:</label>
+    <div>
+      <input type="text" name="my Email" id="Email">
+    </div>
+    <br>
+    <label for="Email">Are you eligible?:</label>
+    <div>
+      <input type="checkbox" name="my eligibility" id="Are you eligible?">
+    </div>
+    <br>
+    <label for="Gender">Gender:</label>
+    <div>
+      Male<input type="radio" name="my Gender" id="Gender">
+      Female<input type="radio" name="my Gender" id="Gender">
+      Other<input type="radio" name="my Gender" id="Gender">
+    </div>
+    <br>
+    <div>
+      Write about your skills: <br> <textarea name="my text" cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+      <label for="Branch Location">Branch Location:</label>
+      <select name="My Branch Location" id="Branch Location">
+        <option value="Nodia">Nodia</option>
+        <option value="Benglore">Benglore</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Pune">Pune</option>
+        <option value="Mumbai">Mumbai</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Delhi NCR">Delhi NCR</option>
+        <option value="Lucknow">Lucknow</option>
+      </select>
+    </div>
+    <br>
+    <div>
+      <input type="submit" value="Submit now">
+      <input type="reset" value="Reset now">
+    </div>
+  </form>
+  <!-- This form will not submit because there is no use of backend as we mention above its only for understanding. -->
+</body>
+
+</html>
